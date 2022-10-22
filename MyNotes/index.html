@@ -15,7 +15,7 @@
 
 <body>
     <div class="menu">
-        <h1><i class="fas fa-sticky-note"></i>MyNote</h1>
+        <h1><i class="fas fa-sticky-note"></i> MyNotes</h1>
 
 
         <div class="menu-buttons">
@@ -25,24 +25,27 @@
     </div>
 
     <div class="note-area">
-        <div class="note">
+        
+        <!-- <div class="note">
+
+
             <div class="note-header">
                 <h3 class="note-title">Notatka #1</h3>
                 <button class="delete-note"><i class="fas fa-times icon"></i></button>
             </div>
-
             <div class="note-body">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis qui illo maxime, suscipit ullam
                 perferendis unde iste. Omnis non sequi repellendus, laudantium nostrum, vitae eaque, et veniam dolorem
                 eveniet dolore.
-            </div>
+            </div> -->
+
         </div>
     </div>
 
     <div class="note-panel">
         <h2>Dodaj notatkę</h2>
         <label for="category">Wybierz kategorię</label>
-        <select id="category">
+        <select id="category" onchange="selectValue()">
             <option value="0" disabled selected>- wybierz kategorię -</option>
             <option value="1">Zakupy</option>
             <option value="1">Praca</option>
