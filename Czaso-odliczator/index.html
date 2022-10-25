@@ -16,8 +16,8 @@
     
 <div class="counter-app">
     <div class="settings active">
-        <h1>Ustawienia</h1>
-        <label for="event-name">Nazwa zdarzenia</label>
+        <h1>ustawienia</h1>
+        <label for="event-name">Nazwa wydarzenia:</label>
         <input type="text" id="event-name" value="Nowy rok">
         <table class="date">
             <tr>
@@ -25,13 +25,17 @@
                 <td><label for="event-month">Miesiąc:</label></td>
                 <td><label for="event-year">Rok:</label></td>
             </tr>
-            <tr><input type="number" id="event-day" maxlength="2" value="1"></tr>
-            <tr><input type="number" id="event-month" maxlength="2" value="1"></tr>
-            <tr><input type="number" id="event-year" maxlength="4" value="2023"></tr>
+            <tr>
+                <td><input type="number" id="event-day" maxlength="2" value="1"></td>
+                <td><input type="number" id="event-month" maxlength="2" value="1"></td>
+                <td><input type="number" id="event-year" maxlength="4" value="2021"></td>
+            </tr>
         </table>
         <label for="event-image">Link do obrazka:</label>
         <input type="text" id="event-image" value="default.jpg">
+
         <button class="save">Zapisz</button>
+
     </div>
 
     <div class="app-body">
@@ -40,7 +44,7 @@
         </div>
 
         <div class="time-section">
-            <h3><span class="event">Nowy rok</span>za:</h3>
+            <h3><span class="event">Nowy rok</span> za:</h3>
             <div class="time-cards">
 
                 <div class="card">
