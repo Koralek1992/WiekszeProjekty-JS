@@ -32,7 +32,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="expenses-area">
+                <div class="expense-area">
                     <h3>Wydatki:</h3>
                     <div class="transaction" id="1">
                         <p class="transaction-name"><i class="fas fa-cart-arrow-down"></i>Zakupy</p>
@@ -62,7 +62,7 @@
                 <button class="add-transaction"><i class="fas fa-plus"></i> Dodaj transakcję</button>
                 <button class="delete-all"><i class="far fa-trash-alt"></i> Usuń wszystko</button>
             </div>
-            <div class="style-sdelection">
+            <div class="style-selection">
                 <h2 class="title">Wybierz styl:</h2>
                 <div class="color-buttons">
                     <button class="light"></button>
@@ -86,7 +86,7 @@
 
         <label for="category">Wybierz kategorię:</label>
         <small>( [ + ] oznacza przychód, [ - ] oznacza wydatek)</small>
-        <select id="category">
+        <select id="category" onchange="selectCategory()">
             <option value="none" selected disabled></option>
             <option value="income">[ + ] Przychód </option>
             <option value="shopping">[ - ] Zakupy </option>

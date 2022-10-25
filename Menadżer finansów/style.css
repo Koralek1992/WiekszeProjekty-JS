@@ -65,7 +65,7 @@ h2.title {
 }
 
 .income-area,
-.expenses-area {
+.expense-area {
 	margin: 0 20px;
 	padding: 30px;
 	width: 50%;
@@ -77,8 +77,8 @@ h2.title {
 	color: rgb(19, 200, 108);
 	font-weight: bold;
 }
-.expenses-area h3,
-.expenses-area .transaction-amount {
+.expense-area h3,
+.expense-area .transaction-amount {
 	color: rgb(255, 104, 104);
 	font-weight: bold;
 }
